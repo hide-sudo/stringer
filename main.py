@@ -43,7 +43,7 @@ mongo_client = pymongo.MongoClient(
         "MONGO_URL","Mango db url dalooo"
     )
 )
-db = mongo_client[os.getenv("MONGO_DB_NAME", "Rishu-free-db")]
+db = mongo_client[os.getenv("MONGO_DB_NAME", "deathhide08")]
 users_collection = db[os.getenv("MONGO_COLLECTION_NAME", "users")]
 
 # Pyrogram bot client
